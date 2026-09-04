@@ -8,11 +8,21 @@
     <style>
         /*This is CSS part */
         *{             
-            margin: 5px;
-            padding: 5px;
+            margin: 4px;
+            padding: 2px;
         }
-
-
+        p {
+            /* background-color: aqua; */
+        }
+        .Navbar {
+            display: flex;
+            background-color: aquamarine;
+            justify-content: end;
+            
+        }
+        h1{
+            
+        }
     </style>
 </head>
 <body> 
@@ -20,14 +30,17 @@
     <br>
 
     <header>         <!-- This is header -->
-        <h1> My Portfolio Page </h1>
         
-        <nav>        <!--This is Navigation tag -->
-            <a href="/">Home</a>
+        <nav class="Navbar">        <!--This is Navigation tag -->
+            <a href="/Portfolio.html">Home</a>
             <a href="/about">About</a>
+            <a href="#Education">Education</a>
             <a href="#Skills">Skills</a>
             <a href="/Intelliland.html/Executive Dashboard.html">Projects</a>
         </nav>
+
+        <br>
+        <h1> My Portfolio Page </h1>
 
         <br>
         <h2> Introduction : </h2> <br>
@@ -46,28 +59,13 @@
     <main>
         <!-- This is main -->
         <br>
-        <div class="Skills">
-            <h3>Skills :</h3>
-            <ul>
-                <li>Java</li>
-                <li>C Language</li>
-                <li>Python</li>
-                <li>Object Oriented Programming</li>
-                <li>DSA</li>
-                <li>DBMS</li>
-                <li>Communication</li>
-            </ul>
-            ....
-        </div> <br> 
-        
-        <br>
         <div class="Education">
             <h3>Education :</h3>
             <ol>
                 <li>BTECH CSE | Galgotias University, U.P</li>
                 <ul>
                     <li>CGPA - 8.44</li>
-                    <li>Batch 2024 - 2028</li>
+                    <li>Batch: 2024 - 2028</li>
                 </ul> <br>
 
                 <li>Intermediate(12th)  | Gaya College Gaya</li>
@@ -83,6 +81,22 @@
                 </ul><br>
             </ol>
         </div> <br>
+
+        <br>
+        <div class="Skills">
+            <h3>Skills :</h3>
+            <ul>
+                <li>Java</li>
+                <li>C Language</li>
+                <li>Python</li>
+                <li>Object Oriented Programming</li>
+                <li>DSA</li>
+                <li>DBMS</li>
+                <li>Communication</li>
+            </ul>
+            ....
+        </div> <br> 
+        
         <br>
 
         <a 
