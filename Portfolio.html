@@ -11,17 +11,32 @@
             margin: 4px;
             padding: 2px;
         }
-        p {
-            /* background-color: aqua; */
+
+        h1{
+            display: flex;
+            justify-content: center;
         }
+
         .Navbar {
             display: flex;
             background-color: aquamarine;
             justify-content: end;
-            
         }
-        h1{
-            
+        .Profil_Image {
+            display: flex;
+            justify-content: end;
+        }
+        .Skills > ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        footer{
+            background-color:rgb(96, 150, 176);
+        }
+        footer > p{
+            display: flex;
+            justify-content: center;
         }
     </style>
 </head>
@@ -29,8 +44,11 @@
     <p> I am going to create my portfolio....</p>
     <br>
 
-    <header>         <!-- This is header -->
+    <header>         <!--============== This is header ==============-->
         
+        <h1> My Portfolio Page </h1>
+        <br>
+
         <nav class="Navbar">        <!--This is Navigation tag -->
             <a href="/Portfolio.html">Home</a>
             <a href="/about">About</a>
@@ -40,13 +58,13 @@
         </nav>
 
         <br>
-        <h1> My Portfolio Page </h1>
 
         <br>
         <h2> Introduction : </h2> <br>
-        <img height="200px" src="/image.jpg" alt="Profile Photo">
+        
         <div class="Profil_Image">
             <!-- <img src="/image.jpg" alt="Profile Photo"> -->
+            <img height="200px" src="/image.jpg" alt="Profile Photo">
         </div> 
 
         <br>
@@ -57,7 +75,7 @@
 
     </header>
     <main>
-        <!-- This is main -->
+        <!-- ==================== This is main ==================== -->
         <br>
         <div class="Education">
             <h3>Education :</h3>
@@ -85,6 +103,7 @@
         <br>
         <div class="Skills">
             <h3>Skills :</h3>
+            <br>
             <ul>
                 <li>Java</li>
                 <li>C Language</li>
@@ -94,7 +113,7 @@
                 <li>DBMS</li>
                 <li>Communication</li>
             </ul>
-            ....
+            
         </div> <br> 
         
         <br>
@@ -119,7 +138,8 @@
             <p> HTML is Hyper Text Markup Language. It is the .........</p>
         </article>
     </main>
-    <footer>
+    <footer>                 <!-- ==================== This is footer ====================-->
+        
         <p>Footer of My Portfolio 2026 </p>
         <h6> Contact me : 9142018173 </h6>
         <h6> E-mail     : u91420k@gmail.com </h6>
